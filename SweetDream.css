@@ -8,12 +8,38 @@ Section: 26231
 Date Modified: 25 April 2021
 */
 
-body
+#wrapper { background-color: #0000A0; }
+aside
 {
-  padding: 0px;
+  padding: 1.5em;
 }
 
-h1
+body
 {
-  color: none;
+  padding: 15px;
+  background-color: #0000A0;
+  color: #fff;
+}
+
+footer
+{
+  text-style: italics;
+}
+
+h1, h2, h3, h4
+{
+  color: #fff;
+  font-family: "courier New", courier, monospace;
+  line-height: 2em;
+}
+
+/* nav section */
+nav a
+{
+  text-decoration: none;
+	font-weight:bold;
+}
+nav ul
+{
+  list-style-type:none;
 }
