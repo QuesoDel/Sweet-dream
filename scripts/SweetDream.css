@@ -8,20 +8,19 @@ Section: 26231
 Date Modified: 25 April 2021
 */
 
-#wrapper { background-color: #0143FF; }
+#wrapper { background-color: #003366; }
 
 /*"Casey" I added some aside code I'm also going to drop some code in here and there, but I will add comments so you know where I added things. */
 /* Ps. enjoy your time with your boyfriend */
 
 aside
 {
-  padding: 1.5em;
-  background-color: darkblue;
+  background-color: #0066cc;
   float: right;
   width: 30%;
-  height: 475px;
-  /*overflow: scroll;
-  padding-left: 5px;*/
+  padding-top:1em;
+  overflow: scroll;
+  padding-left: 2em;
 }
 
 body
@@ -46,16 +45,55 @@ h1, h2, h3, h4
 {
   color: #fff;
   font-family: "courier New", courier, monospace;
-  line-height: 2em;
+  line-height: 5px;
 }
 
+h1
+{
+  text-align: center;
+}
+
+main	{
+  padding-left:2em;
+	line-height:2.2em;
+  width: 45%;
+}
 /* nav section */
+
 nav a
 {
   text-decoration: none;
 	font-weight:bold;
+  color:#fff;
 }
+nav a:hover{color:#549BFF;}
 nav ul
 {
   list-style-type:none;
+  margin:0;
+  font-size: 1.2em;
+  padding-left: 1.5em;
+  text-align: center;
+  padding-bottom: 1.3em;
+  padding-top: .5em;
+  }
+nav li
+{
+  display: inline;
+  padding: 2.4em;
+}
+
+p
+{
+  font-family: serif;
+}
+
+section
+{
+  padding-bottom: 2em;
+}
+
+
+
+
 }
