@@ -10,9 +10,6 @@ Date Modified: 25 April 2021
 
 #wrapper { background-color: #003366; }
 
-/*"Casey" I added some aside code I'm also going to drop some code in here and there, but I will add comments so you know where I added things. */
-/* Ps. enjoy your time with your boyfriend */
-
 aside
 {
   background-color: #0066cc;
@@ -26,15 +23,13 @@ aside
 body
 {
   padding: 15px;
-  background-color: #0000A0;
   color: #fff;
 }
 
 footer
 {
-  font-style: italic;
-    /* I added the code below */
-    background-color: lightblue;
+    font-style: italic;
+    background-color: #0066cc;
     width: 100%;
     float:left;
     padding-bottom: 5px;
