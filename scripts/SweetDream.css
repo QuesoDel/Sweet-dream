@@ -17,7 +17,7 @@ aside
 {
   background-color: #0066cc;
   float: right;
-  width: 30%;
+  width: 25%;
   padding-top:1em;
   overflow: scroll;
   padding-left: 2em;
@@ -74,7 +74,7 @@ nav ul
   font-size: 1.2em;
   padding-left: 1.5em;
   text-align: center;
-  padding-bottom: 1.3em;
+  padding-bottom: 1.5em;
   padding-top: .5em;
   }
 nav li
