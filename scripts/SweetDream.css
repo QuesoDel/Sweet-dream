@@ -20,11 +20,24 @@ aside
   padding-left: 2em;
   border-radius: 25px;
 }
+aside h3
+{
+  line-height: 1.3em;
+}
 
 body
 {
   padding: 15px;
   color: #fff;
+}
+
+.caption
+{
+  font-family: consolas, "lucida console", menlo, monospace;
+  padding: 0px;
+  font-size: 100%;
+  display: block;
+  text-align: center;
 }
 
 footer
@@ -47,6 +60,12 @@ h1, h2, h3, h4
 h1
 {
   text-align: center;
+  font-size: 225%;
+}
+
+h3
+{
+  font-size: 150%;
 }
 
 main	{
@@ -81,7 +100,9 @@ nav li
 
 p
 {
-  font-family: serif;
+  font-family: consolas, "lucida console", menlo, monospace;
+  font-size: 90%;
+  line-height: 1.5em;
 }
 
 section
@@ -89,7 +110,12 @@ section
   padding-bottom: 2em;
 }
 
-
+/*Photo ID's*/
+#patientOfMonth
+{
+  width: 85%;
+  height: auto;
+}
 
 
 }
