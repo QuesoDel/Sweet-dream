@@ -10,6 +10,7 @@ Date Modified: 25 April 2021
 
 #wrapper { background-color: #003366; }
 
+/* aside section */
 aside
 {
   background-color: #0066cc;
@@ -17,7 +18,8 @@ aside
   width: 25%;
   padding-top:1em;
   overflow: scroll;
-  padding-left: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   border-radius: 25px;
 }
 aside h3
@@ -25,18 +27,28 @@ aside h3
   line-height: 1.3em;
 }
 
+aside p
+{
+  letter-spacing: .2em;
+}
+
+aside section
+{
+  padding-bottom: .5em;
+}
+/* end aside section */
+
 body
 {
   padding: 15px;
   color: #fff;
 }
 
-.caption
+#caption
 {
   font-family: consolas, "lucida console", menlo, monospace;
   padding: 0px;
-  font-size: 100%;
-  display: block;
+  font-size: 75%;
   text-align: center;
 }
 
@@ -68,13 +80,23 @@ h3
   font-size: 150%;
 }
 
+h4
+{
+  line-height: 1.2em;
+}
+
 main	{
   padding-left:2em;
 	line-height:2.2em;
   width: 45%;
 }
-/* nav section */
 
+main p
+{
+  line-height: 1.7em;
+}
+
+/* nav section */
 nav a
 {
   text-decoration: none;
@@ -97,6 +119,7 @@ nav li
   display: inline;
   padding: 2.4em;
 }
+/* end nav section */
 
 p
 {
@@ -107,7 +130,7 @@ p
 
 section
 {
-  padding-bottom: 2em;
+  padding-bottom: 1.3em;
 }
 
 /*Photo ID's*/
@@ -115,6 +138,9 @@ section
 {
   width: 85%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
