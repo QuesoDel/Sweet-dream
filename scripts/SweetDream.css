@@ -29,7 +29,7 @@ aside h3
 
 aside p
 {
-  letter-spacing: .2em;
+  letter-spacing: .15em;
 }
 
 aside section
@@ -40,16 +40,8 @@ aside section
 
 body
 {
-  padding: 15px;
+  padding: 7em;
   color: #fff;
-}
-
-#caption
-{
-  font-family: consolas, "lucida console", menlo, monospace;
-  padding: 0px;
-  font-size: 75%;
-  text-align: center;
 }
 
 footer
@@ -86,7 +78,7 @@ h4
 }
 
 main	{
-  padding-left:2em;
+  padding-right: 0px;
 	line-height:2.2em;
   width: 45%;
 }
@@ -127,10 +119,32 @@ p
   font-size: 90%;
   line-height: 1.5em;
 }
+p a:visited{color: #0066cc;}
 
 section
 {
   padding-bottom: 1.3em;
+}
+
+/* Classes and IDs */
+
+#caption
+{
+  font-family: consolas, "lucida console", menlo, monospace;
+  padding: 0px;
+  font-size: 75%;
+  text-align: center;
+}
+#info
+{
+  font-family: consolas, "lucida console", menlo, monospace;
+  padding: 0px;
+  font-size: 75%;
+}
+
+#tele
+{
+  color: #0066cc;
 }
 
 /*Photo ID's*/
