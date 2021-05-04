@@ -157,6 +157,14 @@ section
   margin-left: auto;
   margin-right: auto;
 }
+#logo
+{
+  width: 85%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 }
