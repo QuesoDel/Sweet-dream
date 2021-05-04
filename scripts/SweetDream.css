@@ -161,8 +161,10 @@ section
 {
   width: 10em;
   height: auto;
-  display: block;
+  position: absolute;
   float:left;
+  top: 1em;
+  left: 1em;
 }
 
 
