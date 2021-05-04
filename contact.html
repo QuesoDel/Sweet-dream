@@ -7,7 +7,7 @@ Date Modified: 5/2/2021
 <html lang="en">
    <head>
       <title>
-          Sweet Dreams Home Page
+          Sweet Dreams Sleep Center Contact
       </title>
 
         <META  name="viewport" content="width=width.device-width, initial-scale=1.0">
@@ -20,8 +20,8 @@ Date Modified: 5/2/2021
 <!-- BEGINNING OF BODY -->
    <body id="wrapper">
      <header>
-	     <img id="logo" src="images/logoCT.png" alt="SweetDreams Logo" class="logo">
-		   <h1>Sweet Dreams Sleep Center</h1>
+	     <img src="images/logoCT.png" alt="SweetDreams Logo" class="logo">
+		<h1>Sweet Dreams Sleep Center</h1>
     </header>
 <!-- NAV SECTION -->
 	  <nav>
@@ -64,25 +64,30 @@ Date Modified: 5/2/2021
     <main>
 
 		  <section>
-          <!--VIDEO NEEDS TO GO HERE
-                make sure it plays in browser-->
-             <video height="720" width="480" controls>
-                 <source src="images/HuyMessage_1.webm" type="video/webm">
-                Your browser does not support the video tag.
-              </video>
+			  <p>Office Location: 373 East Brown Street East Stroudsburg, PA 18301</p>
+
 
 
 		  </section>
 
 		  <section>
-		     <h3>What Is Sleep Apnea</h3>
-		     <p>Sleep apnea a potentially serious sleep disorder in which breathing repeatedly stops and starts. If you snore loudly and feel tired even after a full night's sleep, you might have sleep apnea.</p>
-		     <p>Sleep apnea is caused by many things including excess weight, neck circumference, or a narrowed airway. You can be more predisposed to sleep apnea if you are male, older, have a family history, smoke, have nasal congestion, take certain medications, and many more.</p>
+		     <h3>Directions</h3>
+		     <p>Google Maps</p>
+			<form action="http://maps.google.com/maps" method="get" target="_blank">
+			   <label for="saddr">Enter your location</label>
+			   <input type="text" name="saddr" />
+			   <input type="hidden" name="daddr" value="373 East Brown Street East Stroudsburg, PA 18301" />
+			   <input type="submit" value="Get directions" />
+			</form>
 		  </section>
 
 		  <section>
-		     <h3>What Is A Sleep Study</h3>
-			   <p>A sleep study is a test that records the activity of the body during sleep. There are five main types of sleep studies that use different methods to test for different sleep characteristics and disorders.	These include simple sleep studies, polysomnography, multiple sleep latency tests (MLTs), maintenance of wakefulness tests (MWTs), and home sleep tests (HSTs). Here at the Sweet Dreams Sleep Center, we will help you determine the best course of action for your individual needs.</p>
+		     <h3Pictures of the Building</h3>
+			  <!--google 360 view -->
+			   <script src="//storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+			  <div id="vr-image"></div>
+			  
+	    		
 		  </section>
 
       <section>
