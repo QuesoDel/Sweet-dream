@@ -171,6 +171,15 @@ section
 }
 
 /*Photo ID's*/
+#asidePics
+{
+  width: 85%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #logo
 {
   width: 10em;
@@ -180,15 +189,6 @@ section
   top: 1em;
   left: 1em;
 }
-#patientOfMonth
-{
-  width: 85%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 
 
 }
