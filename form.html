@@ -34,12 +34,12 @@ Date Modified: 5/2/2021
     <main>
 		  <section>
           <form method="get" action=mailto:flynn.megan@student.ccm.edu>
-          <label>*Full Name:&nbsp;<input type="text" name="fname" id="fname" required="required"></label><br>
-          <label>*Email:&nbsp;<input type="email" name="email" id="email" required="required"></label><br>
-          <label>*Phone Number:&nbsp;<input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required="required"></label><br>
-          <label>*Insurance:&nbsp;<input type="text" name="insurance" id="insurance" required="required"></label><br>
+          <label>*Full Name:&nbsp;<input type="text" name="fname" id="fname" required="required" placeholder="John Smith"></label><br>
+          <label>*Email:&nbsp;<input type="email" name="email" id="email" required="required" placeholder="name@email.com"></label><br>
+          <label>*Phone Number:&nbsp;<input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="required" placeholder="888-888-8888"></label><br>
+          <label>*Insurance:&nbsp;<input type="text" name="insurance" id="insurance" required="required" placeholder="Insurance Company"></label><br>
           <label for="comments">*Comments:</label>
-          <textarea name="comments" id="comments" rows="4" cols="40" required="required"></textarea><br>
+          <textarea name="comments" id="comments" rows="4" cols="40" required="required" placeholder="Place additional comments here"></textarea><br>
           <input type="submit" value="Contact"> <input type="reset">
           <p>* marks required fields</p>
         </form>
