@@ -55,11 +55,21 @@ footer
 }
 
 /* form stylings */
-form{
-			width: 350px; padding: 10px;}
-label{float: left; clear: both;
-			display: block; width: 90px;
-			text-align: left;}
+form
+{
+  width: 350px;
+  padding: 10px;
+  font-family: consolas, "lucida console", menlo, monospace;
+  font-size: 85%;
+  line-height: 3em;
+}
+label
+{
+  float: left;
+  clear: both;
+	display: block;
+	text-align: left;
+}
 input, textarea{text-align: left;}
 input[type=submit]{margin-left: 110px;}
 input[type=reset]{margin-left: 110px;}
