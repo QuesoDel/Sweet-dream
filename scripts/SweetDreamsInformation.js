@@ -3,10 +3,10 @@ var images = [];	// Images Array
 var time = 3000;	// Time Between Switch
 	 
 // Image List
-images[0] = "BedroomOnePic1.heic;
-images[1] = "http://lorempixel.com/400/200/sports";
-images[2] = "http://lorempixel.com/400/200/food";
-images[3] = "http://lorempixel.com/400/200/people";
+images[0] = "images/BedroomOnePic1.jpg;
+images[1] = "images/BedroomThreePic1.jpg";
+images[2] = "images/BedroomThreePic2.jpg";
+images[3] = "images/BedroomTwoPic1.jpg";
 
 // Change Image
 function changeImg(){
