@@ -95,13 +95,15 @@ h3
 
 h4
 {
-  line-height: 1.2em;
+  line-height: 0em;
+  padding-top:0;
+  font-size:115%;
 }
 
 main	{
   padding-right: 0px;
 	line-height:2.2em;
-  width: 45%;
+  width: 65%;
 }
 
 main p
@@ -148,6 +150,8 @@ section
   padding-bottom: 1.3em;
 }
 
+
+
 ul, li
 {
   font-family: consolas, "lucida console", menlo, monospace;
@@ -178,6 +182,16 @@ ul, li
   color: #0066cc;
 }
 
+#asidelinks
+{
+  font-family: consolas, "lucida console", menlo, monospace;
+  font-size: 90%;
+  line-height: 2em;
+}
+#asidelinkscolor a:visited{color: #003366;}
+
+
+
 /*Photo ID's*/
 #asidePics
 {
@@ -197,7 +211,20 @@ ul, li
   top: 1em;
   left: 1em;
 }
-
+ #contactpics
+ {
+   height: auto;
+   display: block;
+   float: left;
+   width: 50%;
+   padding: 5px;
+ }
+ #clearpics
+ {
+   content: "";
+   clear: both;
+   display: table;
+ }
 
 
 /* java form */
@@ -219,7 +246,7 @@ body {
 }
 
 h1 {
-  text-align: center;  
+  text-align: center;
 }
 
 input {
@@ -264,7 +291,7 @@ button:hover {
   width: 15px;
   margin: 0 2px;
   background-color: #bbbbbb;
-  border: none;  
+  border: none;
   border-radius: 50%;
   display: inline-block;
   opacity: 0.5;
@@ -278,4 +305,3 @@ button:hover {
 .step.finish {
   background-color: #04AA6D;
 }
-
