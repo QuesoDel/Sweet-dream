@@ -10,12 +10,16 @@ Date Modified: 5/2/2021
 
 #wrapper { background-color: #003366; }
 
+a
+{
+  font-family: consolas, "lucida console", menlo, monospace;
+}
 /* aside section */
 aside
 {
   background-color: #0066cc;
   float: right;
-  width: 25%;
+  width: 30%;
   padding-top: 1em;
   overflow: scroll;
   padding-left: 1.5em;
@@ -96,7 +100,7 @@ h3
 h4
 {
   line-height: 0em;
-  padding-top:0;
+  padding-top:.5em;
   font-size:115%;
 }
 
