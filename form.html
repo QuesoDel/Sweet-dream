@@ -9,10 +9,13 @@ Date Modified: 5/2/2021
       <title>
           Sweet Dreams Home Page
       </title>
-      <META  name="viewport" content="width=width.device-width, initial-scale=1.0">
-	  	<META charset="utf-8">
+        <META  name="viewport" content="width=width.device-width, initial-scale=1.0">
+        <META charset="utf-8">
   		<LINK href="scripts/SweetDream.css" rel="Stylesheet" type="text/css">
-      <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <script src="scripts/SweetDreamsForm.js">
+        </script>
+            
  </head>
 <!-- BEGINNING OF BODY -->
  <body id="wrapper">
@@ -90,7 +93,7 @@ Date Modified: 5/2/2021
           <label>*Insurance:&nbsp;<input type="text" name="insurance" id="insurance" required="required" placeholder="Insurance Company"></label><br>
           <label for="comments">*Comments:</label>
           <textarea name="comments" id="comments" rows="4" cols="40" required="required" placeholder="Place additional comments here"></textarea><br>
-          <input type="submit" value="Contact"> <input type="reset">
+          <input type="submit" value="Contact"> <input type="reset" value='Reset' name='reset' onclick="retrun resetForm(this.form);">
           <p>* marks required fields</p>
         </form>
       </section>
