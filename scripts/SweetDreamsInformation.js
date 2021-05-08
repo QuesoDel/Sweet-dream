@@ -7,7 +7,7 @@ images[0] = "images/BedroomTwoPic1.jpg";
 images[1] = "images/BedroomThreePic1.jpg";
 images[2] = "images/BedroomOnePic1.jpg";
 images[3] = "images/BedroomThreePic2.jpg";
-
+         
 // Change Image
 function changeImg(){
 	document.slide.src = images[i];
