@@ -8,7 +8,8 @@ Section: 26231
 Date Modified: 5/2/2021
 */
 
-#wrapper { background-color: #003366; }
+#wrapper { background-color: #003366;
+}
 
 a
 {
@@ -46,6 +47,7 @@ body
 {
   padding: 3em;
   color: #fff;
+  padding-bottom:1em;
 }
 
 footer
@@ -75,8 +77,11 @@ label
 	text-align: left;
 }
 input, textarea{text-align: left;}
-input[type=submit]{margin-left: 110px;}
-input[type=reset]{margin-left: 110px;}
+input[type=submit]{margin-left: 85px;
+                    width: 100px;
+                    display:block;}
+input[type=reset]{margin-left: 85px;
+                    width:100px;}
 /* end form section */
 
 h1, h2, h3, h4
