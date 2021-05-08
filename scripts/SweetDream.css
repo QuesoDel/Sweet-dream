@@ -79,7 +79,7 @@ label
 input, textarea{text-align: left;}
 input[type=submit]{margin-left: 85px;
                     width: 100px;
-                    display:block;}
+                    }
 input[type=reset]{margin-left: 85px;
                     width:100px;}
 /* end form section */
