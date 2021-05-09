@@ -92,9 +92,14 @@ Date Modified: 5/2/2021
           <label>*Phone Number:&nbsp;<input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="required" placeholder="888-888-8888"></label><br>
           <label>*Insurance:&nbsp;<input type="text" name="insurance" id="insurance" required="required" placeholder="Insurance Company"></label><br>
           <label for="comments">*Comments:</label>
-          <textarea name="comments" id="comments" rows="4" cols="40" required="required" placeholder="Place additional comments here"></textarea><br>
-          <input type="submit" value="Contact">
-          <input type="reset" value='Reset' name='reset' onclick="resetForm(this.form);">
+          <textarea name="comments" id="comments" rows="4" cols="40" required="required" placeholder="Place additional comments here"></textarea><br><br>
+              
+            <button type="submit" >Contact</button>
+            <button type="reset" name='reset' onclick="resetForm(this.form);">Reset</button>
+              
+          <!--<input type="submit" value="Contact">
+          <input type="reset" value='Reset' name='reset' onclick="resetForm(this.form);">-->
+              
           <p>* marks required fields</p>
         </form>
       </section>
