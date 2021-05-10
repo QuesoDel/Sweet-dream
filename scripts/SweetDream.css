@@ -203,9 +203,9 @@ ul, li
   font-family: consolas, "lucida console", menlo, monospace;
   font-size: 90%;
   line-height: 2em;
-  color: #003366;
+  color: Darkblue;
 }
-#asidelinkscolor a:visited {color: #003366;}
+#asidelinkscolor a:visited {color: purple;}
 
 #image0
 {
