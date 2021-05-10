@@ -11,7 +11,9 @@ Date Modified: 5/2/2021
 #wrapper { background-color: #003366;
 }
 
-#mainwrap { background-color: #feeda5;}
+#mainwrap { background-color: #0066cc;
+            border-radius: 25px;
+            padding: 2em;}
 
 a
 {
@@ -39,7 +41,7 @@ aside h3
 aside p
 {
   letter-spacing: .15em;
-    
+
 }
 
 aside section
@@ -193,7 +195,7 @@ ul, li
 
 #tele
 {
-  color: #0066cc;
+  color: #036;
 }
 
 #asidelinks
