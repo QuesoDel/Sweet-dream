@@ -1,3 +1,4 @@
+// For the buttons on the Forms page I have the buttons set to clearing inputs, clearing selects, and clearing of the text area
 function resetForm(form) {
     // clearing inputs
     var inputs = form.getElementsByTagName('input');
