@@ -1,4 +1,4 @@
-// This JavaScript makes a button at the top of the page that links whoever clicks on it to the direction  page on google maps.
+// This JavaScript makes a button at the top of the page that links whoever clicks on it to the direction page on google maps.
 
 var MyWindow;
 function openpopup()
