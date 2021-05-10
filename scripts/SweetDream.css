@@ -30,6 +30,8 @@ aside
 aside h3
 {
   line-height: 1.3em;
+  text-align: center;
+  text-decoration-line: underline;
 }
 
 aside p
