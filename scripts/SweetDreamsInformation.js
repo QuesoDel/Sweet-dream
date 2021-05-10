@@ -1,3 +1,4 @@
+//This is a simple slideshow we have to show the patients what the bedrooms look like 
 var i = 0; 			// Start Point
 var images = [];	// Images Array
 var time = 3000;	// Time Between Switch
